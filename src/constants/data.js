@@ -2,59 +2,23 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Photography sessions',
+    description: 'This can include portrait photography, family photography, newborn photography, pet photography, engagement photography, wedding photography, commercial photography, fashion photography, etc.',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Photo editing and retouching',
+    description: 'Photo studios can provide editing and retouching services to enhance the quality of photographs. This can include color correction, background removal, skin smoothing, and other enhancements.',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Photo albums and books',
+    description: 'Photo studios can design and create photo albums and books for clients, which can include different themes and layouts.',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
-  },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Digital copies and storage',
+    description: 'Photo studios can provide digital copies of photographs and can also store them for clients in secure online servers or cloud-based storage.',
   },
 ];
 
-const cocktails = [
-  {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
-  },
-  {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
-  },
-  {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
-];
 
 const awards = [
   {
@@ -79,4 +43,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { wines, awards };

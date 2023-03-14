@@ -2,9 +2,9 @@
     width: 100%;
     position: relative;
     z-index: 1;
-
+    height: 90vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
 
@@ -31,7 +31,7 @@
 }
 
 .app__footer-links_logo img:first-child {
-    width: 210px;
+    width: 70px;
     margin-bottom: 0.75rem;
 }
 
@@ -96,6 +96,7 @@
     .app__footer {
         padding: 0 0 2rem 0;
     }
+
 }
 
 @media screen and (max-width: 350px) {

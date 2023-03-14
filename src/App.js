@@ -8,12 +8,12 @@ const App = () => (
   <div>
     <Navbar />
     <Header />
+    <Intro />
+    <Gallery />
     <AboutUs />
     <SpecialMenu />
     <Chef />
-    <Intro />
-    <Laurels />
-    <Gallery />
+    {/* <Laurels /> */}
     <FindUs />
     <Footer />
   </div>

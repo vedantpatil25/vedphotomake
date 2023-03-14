@@ -7,24 +7,23 @@ import './Chef.css';
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <img src={images.chef} alt="chef_image" />
+      <img src={images.founder} alt="chef_image" />
     </div>
     <div className="app__wrapper_info">
-      <SubHeading title="Chef's word" />
+      <SubHeading title="Photography == Passion" />
       <h1 className="headtext__cormorant">What we believe in</h1>
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
-          <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .</p>
+          <p className="p__opensans">Making The Memories That Matters...</p>
         </div>
-        <p className="p__opensans"> auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc. </p>
+        <p className="p__opensans">We believe in the power of photography to preserve memories and evoke emotions. We strive to capture those special moments that will be cherished for a lifetime. Our team of experienced photographers uses state-of-the-art equipment and techniques to create images that are not only beautiful but also meaningful.</p>
       </div>
 
       <div className="app__chef-sign">
-        <p>Kevin Luo</p>
-        <p className="p__opensans">Chef & Founder</p>
-        <img src={images.sign} alt="sign_image" />
+        <p>Jitendra Patil</p>
+        <p className="p__opensans">Photographer & Founder</p>
       </div>
     </div>
   </div>

@@ -1,6 +1,7 @@
 .app__video {
     height: 100vh;
     position: relative;
+    z-index: 1000;
 }
 
 .app__video video {
