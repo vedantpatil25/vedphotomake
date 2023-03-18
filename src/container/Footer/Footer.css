@@ -8,7 +8,7 @@
     align-items: center;
     flex-direction: column;
 
-    background: var(--color-black);
+    background: rgba(14, 33, 94, 0.734);
     padding-top: 0;
 }
 

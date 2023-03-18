@@ -4,11 +4,12 @@
     justify-content: space-between;
     align-items: center;
     /* background: var(--color-black); */
-    background-color: rgb(0, 0, 0,1);
+    /* background-color: rgb(15, 25, 59); */
     padding: 1rem 2rem;
     position: fixed;
     height: 70px;
     z-index: 999;
+    background-image: linear-gradient(rgba(14, 33, 94), rgb(73, 92, 149));
 }
 
 .app__navbar-logo {

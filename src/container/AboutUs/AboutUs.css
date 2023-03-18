@@ -1,5 +1,6 @@
 .app__aboutus {
     position: relative;
+    background-color: rgba(14, 33, 94, 0.734);
 }
 
 .app__aboutus-overlay {
@@ -7,11 +8,11 @@
     inset: 0;
 }
 
-.app__aboutus-overlay img {
+/* .app__aboutus-overlay img {
     width: 391px;
     height: 415px;
     z-index: 0;
-}
+} */
 
 .app__aboutus-content {
     width: 100%;

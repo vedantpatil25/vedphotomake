@@ -1,21 +1,16 @@
 import React from 'react';
 import Login from './Login/Login';
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
-import { Navbar } from './components';
+
 import './App.css';
+import Main from './Main';
+import { Routes, Route } from 'react-router-dom';
 
 const App = () => (
   <div>
-    <Navbar />
-    <Header />
-    <Intro />
-    <Gallery />
-    <AboutUs />
-    <SpecialMenu />
-    <Chef />
-    <FindUs />
-    <Footer />
-    <Login/>
+    <Routes>
+      <Route path="/" element = {<Main/>}/>
+      <Route path="/login" element = {<Login/>}/>
+    </Routes>
   </div>
 );
 

@@ -1,9 +1,10 @@
 import React from 'react'
 import "./Login.css"
-
+import { Navbar } from '../components'
 const Login = () => {
   return (
     <>
+    <Navbar/>
 <div className="form">
 <div className="text-center">
   <h6><span>Log In</span> <span>Sign Up</span></h6>

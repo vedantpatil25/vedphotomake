@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
-          <a href="#home">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="p__opensans">
           <a href="#gallary">Gallary</a>
@@ -30,7 +30,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">
+        <a href="/login" className="p__opensans">
           Log In
         </a>
         <div />
@@ -39,6 +39,7 @@ const Navbar = () => {
           Book Order
         </a>
       </div>
+      
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
           color="#fff"

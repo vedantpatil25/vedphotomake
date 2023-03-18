@@ -9,11 +9,7 @@
 }
 
 .app__bg {
-  background: url('./assets/bg.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
-  background-attachment: fixed;
+  background-color: rgba(14, 33, 94, 0.734);
 }
 
 .app__wrapper {
@@ -71,8 +67,8 @@
 
 .p__cormorant {
   font-family: 'Quicksand', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Signika', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Signika', sans-serif;
   color: var(--color-white);
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -95,10 +91,11 @@ font-family: 'Signika', sans-serif;
 .headtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-golden);
-  font-size: 64px;
-  line-height: 83.2px;
-  letter-spacing: 0.04em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
   text-transform: capitalize;
+  line-height: 117px;
+  font-size: 50px;
 }
 
 .spoon__img {

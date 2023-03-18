@@ -1,6 +1,6 @@
 .app__gallery {
     flex-direction: row;
-    background: var(--color-black);
+    background: rgba(14, 33, 94, 0.734);
     padding: 5rem 0 4rem 6rem;
 
 }

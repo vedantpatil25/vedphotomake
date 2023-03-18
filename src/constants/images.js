@@ -1,4 +1,4 @@
-import bg from '../assets/bg.png';
+import bg from '../assets/bg.jpg';
 import founder from '../assets/founder.jpg';
 import G from '../assets/G.png';
 import gallery01 from '../assets/gallary01.jpeg';
@@ -19,7 +19,7 @@ import logo from '../assets/logo.png';
 import photographer from '../assets/photographer.png';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/cam__heading.png';
-import welcome from '../assets/welcome.jpg';
+import welcome from '../assets/welcome.png';
 import findus from '../assets/findus.png';
 import laurels from '../assets/laurels.png';
 import award01 from '../assets/award01.png';
