@@ -17,7 +17,7 @@ const FindUs = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.findus} alt="findus_img" style={{ margin: '0',height: '500px',width:'250px' }}/>
+      <img src={images.findus} alt="findus_img" style={{ margin: '0',height: '500px',width:'375px' }}/>
     </div>
   </div>
 );
