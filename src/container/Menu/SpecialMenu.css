@@ -1,6 +1,7 @@
 .app__specialMenu {
     flex-direction: column;
     background: #424874;
+    padding-bottom: 0;
 }
 
 .app__specialMenu-menu {
