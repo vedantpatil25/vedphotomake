@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 4rem 5rem;
+  padding: 3rem 5rem;
 }
 
 .flex__center {
@@ -9,7 +9,7 @@
 }
 
 .app__bg {
-  background-color: rgba(14, 33, 94, 0.734);
+  background-color: #424874;
 }
 
 .app__wrapper {
@@ -49,7 +49,7 @@
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
+  background-color: var(--color-golden);
     color: var(--color-black);
     font-family: 'Quicksand', sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -63,12 +63,29 @@
     border: none;
     outline: none;
     cursor: pointer;
+    border-radius: 6px;
+}
+.custom__button:hover {
+  background-color: rgba(89, 50, 168, 0.61);
+    color: var(--color-black);
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
 }
 
 .p__cormorant {
   font-family: 'Quicksand', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Signika', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
   color: var(--color-white);
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -130,7 +147,7 @@
   }
 
   .app__wrapper_img {
-    margin: 5rem 0 0 0;
+    margin: -2rem 0 0 0;
   }
 
   .app__wrapper_img-reverse {
@@ -146,6 +163,9 @@
   .section__padding {
     padding: 4rem;
   }
+  .header__img{
+    top: -38px;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -159,6 +179,9 @@
 
   .p__opensans {
     font-size: 14px;
+  }
+  .header__app__wrapper_img{
+    order: 1;
   }
 }
 

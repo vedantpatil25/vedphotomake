@@ -23,6 +23,7 @@ const Login = () => {
             <input type="password" className="form-style" placeholder="Your Password"/>
             <i className="input-icon material-icons">lock</i>
           </div>
+          <button><a href="">google sign in</a></button><br />
           <a href="#" className="btn">submit</a>
           <p className="text-center"><a href="#" className="link">Forgot your password</a></p>
         </div>
@@ -32,6 +33,7 @@ const Login = () => {
       <div className="card-back">
         <div className="center-wrap">
           <h4 className="heading">Sign Up</h4>
+          
           <div className="form-group">
             <input type="text" className="form-style" placeholder="Your Full Name"/>
             <i className="input-icon material-icons">perm_identity</i>
@@ -51,6 +53,8 @@ const Login = () => {
   </div>
 </div>
 </div>
+
+
 
     </>
   )

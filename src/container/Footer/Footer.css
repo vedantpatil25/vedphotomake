@@ -2,13 +2,13 @@
     width: 100%;
     position: relative;
     z-index: 1;
-    height: 90vh;
+    /* height: 90vh; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
 
-    background: rgba(14, 33, 94, 0.734);
+    background: #3a3f67;
     padding-top: 0;
 }
 

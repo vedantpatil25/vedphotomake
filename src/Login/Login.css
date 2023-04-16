@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
-  background: #181818;
+  background: #424874;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,12 +27,12 @@ input[type="checkbox"]
 h4
 {
   font-weight: 600;
-  color: #ffffff;
+  color: #eaeaea;
 }
 h6
 {
   margin-bottom: 30px;
-  color: #ffffff;
+  color: #eaeaea;
 }
 h6 span
 {
@@ -48,7 +48,7 @@ h6 span
   display: block;
   width: 60px;
   height: 16px;
-  background: crimson;
+  background: #000e7b;
   border-radius: 8px;
   margin: 10px auto;
   cursor: pointer;
@@ -61,8 +61,8 @@ h6 span
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  color: crimson;
-  background-color: #ffffff;
+  color: #000e7b;
+  background-color: #eaeaea;
   top: -10px;
   left: -10px;
   font-family: 'Material Icons';
@@ -100,7 +100,7 @@ h6 span
 {
   width: 100%;
   height: 100%;
-  background-color: #1b1b1b;
+  background-color: #3b437f;
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -175,7 +175,7 @@ h6 span
   height: 48px;
   font-size: 24px;
   line-height: 48px;
-  color: crimson;
+  color: white;
   text-align: left;
 }
 .form-group input::placeholder
@@ -201,16 +201,15 @@ h6 span
   align-items: center;
   justify-content: center;
   border: none;
-  background: crimson;
-  color: #ffffff;
+  background: #000e7b;
+  color: #eaeaea;
   margin-top: 15px;
-  box-shadow: 0 8px 24px 0 rgba(228,10,57,0.2);
   transition: all 200ms linear;
 }
 .btn:hover
 {
-  background: #ffffff;
-  color: crimson;
+  background: #eaeaea;
+  color: #000e7b;
   box-shadow: 0 8px 24px 0 rgba(138,140,146,0.2);
 }
 .link
@@ -221,5 +220,5 @@ h6 span
 }
 .link:hover
 {
-  color: crimson;
+  color: #000e7b;
 }

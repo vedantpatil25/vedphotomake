@@ -1,16 +1,10 @@
 .app__specialMenu {
     flex-direction: column;
-    background: rgba(14, 33, 94, 0.734);
-}
-
-.app__specialMenu-title {
-    margin-bottom: 2rem;
-    text-align: center;
+    background: #424874;
 }
 
 .app__specialMenu-menu {
     width: 100%;
-    margin: 2rem 0;
 
     display: flex;
     justify-content: center;
@@ -37,6 +31,7 @@
 .app__specialMenu-menu_img {
     width: 410px;
     margin: 0 2rem;
+    align-self: center;
 }
 
 .app__specialMenu-menu_img img {
@@ -72,6 +67,13 @@
     .app__specialMenu-menu_img {
         margin: 3rem 0;
     }
+    .app__specialMenu-menu_img img{
+        width: 50%;
+        position: relative;
+        left: 100px;
+        top: -59px
+    }
+
 }
 
 @media screen and (max-width: 650px) {

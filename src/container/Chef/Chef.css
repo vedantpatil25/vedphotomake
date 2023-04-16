@@ -44,8 +44,19 @@
     }
 }
 
-@media screen and (max-width: 450px) {
-    .app__chef-sign img {
-        width: 80%;
+@media screen and (max-width: 650px) {
+    .founder__img{
+        position: relative;
+        top: 80px;
     }
+}
+
+.founder__img{
+    position: relative;
+    top: 80px;
+}
+
+.chef__div{
+    position: relative;
+    padding-top: 0;
 }

@@ -13,7 +13,7 @@ const Header = () => (
       <button type="button" className="custom__button">Book Order</button>
     </div>
 
-    <div className="app__wrapper_img">
+    <div className="app__wrapper_img header__img">
       <img src={images.welcome} alt="header_img" className='header__img'/>
     </div>
   </div>

@@ -1,6 +1,6 @@
 .app__gallery {
     flex-direction: row;
-    background: rgba(14, 33, 94, 0.734);
+    background: #424874;
     padding: 5rem 0 4rem 6rem;
 
 }
@@ -20,10 +20,11 @@
 }
 
 .app__gallery-images {
+    margin-top: 1.5rem;
     flex: 1;
     display: flex;
     flex-direction: row;
-    max-width: 50%;
+    /* max-width: 50%; */
     position: relative;
 }
 
@@ -118,7 +119,7 @@
 
     .app__gallery-images {
         max-width: 100%;
-        margin: 5rem 0;
+        margin: 2rem 0;
     }
 }
 

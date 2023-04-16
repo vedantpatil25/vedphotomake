@@ -1,5 +1,5 @@
 import bg from '../assets/bg.jpg';
-import founder from '../assets/founder.jpg';
+import founder from '../assets/founder.png';
 import G from '../assets/G.png';
 import gallery01 from '../assets/gallary01.jpeg';
 import gallery02 from '../assets/gallary02.jpeg';

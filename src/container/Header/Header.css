@@ -1,5 +1,5 @@
 .app__header {
-    background-color:rgba(14, 33, 94, 0.734);
+    background-color:#424874;
 }
 
 .app__header-h1 {
@@ -36,18 +36,13 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 610px) {
     .app__header-h1 {
-        font-size: 50px;
+        font-size: 35px;
         line-height: 70px;
     }
 }
 
-.header__img
-{
-    position: relative;
-    top: 30px;
-}
 .app__wrapper_info
 {
     position: relative;

@@ -1,6 +1,6 @@
 .app__aboutus {
     position: relative;
-    background-color: rgba(14, 33, 94, 0.734);
+    background-color: #424874;
 }
 
 .app__aboutus-overlay {
@@ -17,16 +17,17 @@
 .app__aboutus-content {
     width: 100%;
     z-index: 2;
+    padding-left: 1rem;
+
 }
 
 .app__aboutus-content_about {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
 
-    text-align: right;
 }
 
 .app__aboutus-content_knife {
@@ -49,7 +50,7 @@
 
 .app__aboutus-content_about p,
 .app__aboutus-content_history p {
-    margin: 2rem 0;
+    margin: 0.5rem 0;
     color: var(--color-grey);
 }
 
