@@ -66,12 +66,12 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="#menu" onClick={() => setToggleMenu(false)}>
+                <a href="#about" onClick={() => setToggleMenu(false)}>
                   About
                 </a>
               </li>
               <li>
-                <a href="#awards" onClick={() => setToggleMenu(false)}>
+                <a href="#menu" onClick={() => setToggleMenu(false)}>
                   Services
                 </a>
               </li>
