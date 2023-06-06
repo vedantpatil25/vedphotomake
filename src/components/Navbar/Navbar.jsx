@@ -34,7 +34,7 @@ const Navbar = () => {
         </a>
         <div />
 
-        <a href="/" className="p__opensans">
+        <a href="/booking" className="p__opensans">
           Book Order
         </a>
       </div>

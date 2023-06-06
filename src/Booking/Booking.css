@@ -1,0 +1,99 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap'); */
+
+.main_bg{
+    background-color: #424874;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.form1{
+    width: 650px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form1-text{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.form1-text h1 span img{
+    margin: 0 10px;
+
+}
+.form1-text h1{
+    color: var(--color-golden);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.form1-text p{
+    color: #fff;
+    font-size: large;
+}
+
+.main-form1 div{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+}
+.main-form1 div input {
+    width: 100%;
+    background: none;
+    border: 1px solid #ffca00;;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    padding: 5px 0 5px 15px;
+    margin-top: 12px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.main-form1 div select{
+    width: 100%;
+    background: none;
+    border: 1px solid #ffca00;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    padding: 5px 0 5px 15px;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+.main-form1 div span{
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.submit__button{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.input__component{
+    padding: 1rem;
+}
+
+
+
+
+@media screen and (max-width:710px) {
+    .main-form1{
+        text-align: left;
+    }
+
+    .input__component{
+        padding: 0;
+        padding-left: 1.5rem;
+    }
+    .submit__button{
+        width: 85%;
+        margin-left: 1.5rem;
+    }
+    .main-form1 div input {
+        width: 140%;
+    }
+    .main-form1 div select{
+        width: 140%;
+    }
+}
