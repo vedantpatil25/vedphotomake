@@ -8,9 +8,12 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
     <nav className="app__navbar">
+      <a href="https://vedphotomake.web.app/">
       <div className="app__navbar-logo">
         <img src={images.gericht} alt="app__logo" />
       </div>
+      </a>
+      
       <ul className="app__navbar-links">
         <li className="p__opensans">
           <a href="/">Home</a>
