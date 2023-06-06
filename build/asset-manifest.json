@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.29cd3b7d.css",
-    "main.js": "/static/js/main.198bc856.js",
+    "main.css": "/static/css/main.aee20405.css",
+    "main.js": "/static/js/main.ec7d4ec7.js",
     "static/media/sample__video.mp4": "/static/media/sample__video.456a2974f3a1bae19b69.mp4",
-    "static/media/laurels.png": "/static/media/laurels.e760828692795d4aafd7.png",
     "static/media/findus.png": "/static/media/findus.7324d0bd59f9b56a9c57.png",
     "static/media/photographer.png": "/static/media/photographer.e6027b01a8b7a3eb21d9.png",
-    "static/media/knife.png": "/static/media/knife.1121c0a5afb62acb31cb.png",
-    "static/media/overlaybg.png": "/static/media/overlaybg.165362eea72d1614ae28.png",
     "static/media/gallary12.jpeg": "/static/media/gallary12.7c9af4a1750bfaf99c33.jpeg",
     "static/media/gallary04.jpeg": "/static/media/gallary04.42806e4319d30d1c3605.jpeg",
     "static/media/gallary11.jpeg": "/static/media/gallary11.ffa307146cf68c7e7162.jpeg",
@@ -23,21 +20,13 @@
     "static/media/gallary02.jpeg": "/static/media/gallary02.afefc9331b6000ea0134.jpeg",
     "static/media/gallary13.jpeg": "/static/media/gallary13.8e2fc9cfe7026e49b686.jpeg",
     "static/media/gallary03.jpeg": "/static/media/gallary03.99a816132dd04fc2e41d.jpeg",
-    "static/media/bg.jpg": "/static/media/bg.bd41fa504a535edb6118.jpg",
     "static/media/gericht.png": "/static/media/gericht.193afa7a16b7d6c89917.png",
-    "static/media/G.png": "/static/media/G.b571eb82e589ec305ec9.png",
-    "static/media/logo.png": "/static/media/logo.0286194c03de0a90dac9.png",
-    "static/media/award02.png": "/static/media/award02.8bbdd51499739653b003.png",
-    "static/media/award05.png": "/static/media/award05.48a7f5206184009dcb29.png",
-    "static/media/award01.png": "/static/media/award01.361a4bc44b59b55abeda.png",
-    "static/media/award03.png": "/static/media/award03.3f7ee934c17dccbd5fc6.png",
-    "static/media/sign.png": "/static/media/sign.9bf0bd90ad4caa17991f.png",
     "index.html": "/index.html",
-    "main.29cd3b7d.css.map": "/static/css/main.29cd3b7d.css.map",
-    "main.198bc856.js.map": "/static/js/main.198bc856.js.map"
+    "main.aee20405.css.map": "/static/css/main.aee20405.css.map",
+    "main.ec7d4ec7.js.map": "/static/js/main.ec7d4ec7.js.map"
   },
   "entrypoints": [
-    "static/css/main.29cd3b7d.css",
-    "static/js/main.198bc856.js"
+    "static/css/main.aee20405.css",
+    "static/js/main.ec7d4ec7.js"
   ]
 }

@@ -70,30 +70,30 @@
     width: 100%;
 }
 
-.input__component{
+/* .input__component{
     padding: 1rem;
-}
+} */
 
 
 
 
 @media screen and (max-width:710px) {
     .main-form1{
-        text-align: left;
+        text-align: centre;
+        width: auto;
     }
-
-    .input__component{
-        padding: 0;
-        padding-left: 1.5rem;
+    .main-form1 div{
+        padding-left: 0.65rem;
+        width: 90%;
+    }
+    .main_bg{
+        position: relative;
+        height: 130vh;
     }
     .submit__button{
-        width: 85%;
-        margin-left: 1.5rem;
+        border-radius: 0 !important;
     }
-    .main-form1 div input {
-        width: 140%;
-    }
-    .main-form1 div select{
-        width: 140%;
-    }
+    
+
+
 }
