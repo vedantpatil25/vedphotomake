@@ -30,7 +30,7 @@ const Gallery = () => {
         <div className="app__gallery-images_container" ref={scrollRef}>
           {[images.gallery01, images.gallery02, images.gallery03, images.gallery04, images.gallery05, images.gallery06, images.gallery07, images.gallery08, images.gallery09, images.gallery10, images.gallery11, images.gallery12, images.gallery13].map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
-              <img src={image} alt="gallery_image" />
+              <img src={image} alt="gallery_image" className='rounded-corner'/>
             </div>
           ))}
         </div>
