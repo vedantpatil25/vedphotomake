@@ -2,14 +2,14 @@ import React from "react";
 import "./Booking.css";
 import { Navbar } from "../components";
 
-const Booking = () => {
+const Booking = (props) => {
   return (
     <>
       <Navbar />
       <div className="main_bg">
         <div className="form1">
           <div className="form1-text">
-            <h1 className="app__header-h1 booking__heading">Book Now</h1>
+            <h1 className="app__header-h1 booking__heading">Book Now - {props.name}</h1>
             <p className="p__cormorant">
               Book Your order and we will contact you.
             </p>
@@ -18,11 +18,11 @@ const Booking = () => {
             <form action="https://formspree.io/f/meqwbrwn" method="POST">
               <div className="input__component">
                 <span>Name</span>
-                <input type="text" name="name" id="name" required />
+                <input type="text" name="name" id="name" placeholder= {props.name} required />
               </div>
               <div className="input__component">
                 <span>E-mail</span>
-                <input type="email" name="email" id="name" required />
+                <input type="email" name="email" id="name" placeholder= {props.email} required />
               </div>
               <div className="input__component">
                 <span>Type of Photo Shoot</span>
