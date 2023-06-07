@@ -67,7 +67,7 @@
 }
 .custom__button:hover {
   background-color: rgba(89, 50, 168, 0.61);
-    color: var(--color-black);
+    color: white;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Signika', sans-serif;

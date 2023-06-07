@@ -1,5 +1,5 @@
 import React from 'react'
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { AboutUs, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
 import { Navbar } from './components';
 
 const Main = () => {
@@ -9,9 +9,7 @@ const Main = () => {
     <Header />
     <Intro />
     <Gallery />
-    <AboutUs />
     <SpecialMenu />
-    <Chef />
     <FindUs />
     <Footer />
   </div>

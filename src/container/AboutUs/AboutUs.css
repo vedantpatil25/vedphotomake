@@ -27,7 +27,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-
+    padding-top: 4rem;
 }
 
 .app__aboutus-content_knife {

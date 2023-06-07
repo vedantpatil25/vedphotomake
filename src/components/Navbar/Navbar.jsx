@@ -19,16 +19,10 @@ const Navbar = () => {
           <a href="/">Home</a>
         </li>
         <li className="p__opensans">
-          <a href="#gallary">Gallary</a>
+          <a href="/portfolio">Portfolio</a>
         </li>
         <li className="p__opensans">
-          <a href="#about">About</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#menu">Services</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#contact">Contact</a>
+          <a href="/aboutus">About</a>
         </li>
       </ul>
       <div className="app__navbar-login">
@@ -59,28 +53,18 @@ const Navbar = () => {
             </span>
             <ul className="app__navbar-smallscreen_links">
               <li>
-                <a href="#home" onClick={() => setToggleMenu(false)}>
+                <a href="/" onClick={() => setToggleMenu(false)}>
                   Home
                 </a>
               </li>
               <li>
-                <a href="#gallary" onClick={() => setToggleMenu(false)}>
-                  Gallary
+                <a href="/portfolio" onClick={() => setToggleMenu(false)}>
+                  Portfolio
                 </a>
               </li>
               <li>
-                <a href="#about" onClick={() => setToggleMenu(false)}>
+                <a href="/aboutus" onClick={() => setToggleMenu(false)}>
                   About
-                </a>
-              </li>
-              <li>
-                <a href="#menu" onClick={() => setToggleMenu(false)}>
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#contact" onClick={() => setToggleMenu(false)}>
-                  Contact
                 </a>
               </li>
             </ul>

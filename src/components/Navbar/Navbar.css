@@ -74,9 +74,8 @@
     height: 100vh;
     background: #3a3f67;
     transition: .5s ease;
-
     flex-direction: column;
-    z-index: 300000;
+    z-index: 30000000000;
 }
 
 .app__navbar-smallscreen_overlay .overlay__close {
@@ -85,8 +84,8 @@
     cursor: pointer;
 
     position: absolute;
-    top: 20px;
     right: 20px;
+    top: 20px;
 }
 
 .app__navbar-smallscreen_links {
