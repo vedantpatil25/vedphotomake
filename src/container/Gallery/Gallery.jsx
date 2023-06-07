@@ -24,8 +24,10 @@ const Gallery = () => {
         <SubHeading title="Photos" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA' }}>Our photo gallery showcases our passion for capturing beautiful and timeless moments. Browse through our collection to see our work and let us tell your story through our lens.</p>
-        <a href="https://www.youtube.com/@vedphotojitupatil3518" target="_blank"><button type="button" className="custom__button">Explore our YouTube</button></a>
+  
       </div>
+      <a href="/portfolio"><button type="button" className="custom__button gallary__buttons">Click to see Portfolio</button></a>
+      <a href="https://www.youtube.com/@vedphotojitupatil3518" target="_blank"><button type="button" className="custom__button">Explore our YouTube</button></a>
       <AnimatedGallery />
 
 

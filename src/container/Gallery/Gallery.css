@@ -99,6 +99,11 @@
     color: var(--color-white);
 }
 
+
+.gallary__buttons{
+    margin: 3rem 0rem;
+    margin-right: 1rem;
+}
 @media screen and (min-width: 2000px) {
     .app__gallery-content button {
         margin-top: 2rem;

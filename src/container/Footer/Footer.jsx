@@ -31,9 +31,9 @@ const Footer = () => (
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Working Hours</h1>
         <p className="p__opensans">Everyday:</p>
-        <p className="p__opensans">09:00 am - 10:00 am</p>
+        <p className="p__opensans">09:00 AM - 08:00 PM</p>
         <p className="p__opensans">Saturday-Sunday:</p>
-        <p className="p__opensans">07:00 am - 11:00 pm</p>
+        <p className="p__opensans">07:00 AM - 10:00 PM</p>
       </div>
     </div>
 
