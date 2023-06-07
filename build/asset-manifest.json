@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d90ffe4b.css",
-    "main.js": "/static/js/main.8f29296a.js",
+    "main.css": "/static/css/main.01c93cfd.css",
+    "main.js": "/static/js/main.5be8588f.js",
     "static/media/sample__video.mp4": "/static/media/sample__video.456a2974f3a1bae19b69.mp4",
     "static/media/findus.png": "/static/media/findus.7324d0bd59f9b56a9c57.png",
     "static/media/founder.png": "/static/media/founder.fe62f48f04ee4cc090f8.png",
@@ -10,6 +10,7 @@
     "static/media/gallary04.jpeg": "/static/media/gallary04.42806e4319d30d1c3605.jpeg",
     "static/media/gallary11.jpeg": "/static/media/gallary11.ffa307146cf68c7e7162.jpeg",
     "static/media/welcome.png": "/static/media/welcome.b406196cee6bb3f6f57e.png",
+    "static/media/gallary09.jpeg": "/static/media/gallary09.dd6ae6de83d60abe37c4.jpeg",
     "static/media/cam__heading.png": "/static/media/cam__heading.f007c8b8d7d48d42f805.png",
     "static/media/gallary01.jpeg": "/static/media/gallary01.38703889adb2d8b7ca45.jpeg",
     "static/media/gallary10.jpeg": "/static/media/gallary10.7a91e723631af20adc75.jpeg",
@@ -22,11 +23,11 @@
     "static/media/gallary03.jpeg": "/static/media/gallary03.99a816132dd04fc2e41d.jpeg",
     "static/media/gericht.png": "/static/media/gericht.193afa7a16b7d6c89917.png",
     "index.html": "/index.html",
-    "main.d90ffe4b.css.map": "/static/css/main.d90ffe4b.css.map",
-    "main.8f29296a.js.map": "/static/js/main.8f29296a.js.map"
+    "main.01c93cfd.css.map": "/static/css/main.01c93cfd.css.map",
+    "main.5be8588f.js.map": "/static/js/main.5be8588f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d90ffe4b.css",
-    "static/js/main.8f29296a.js"
+    "static/css/main.01c93cfd.css",
+    "static/js/main.5be8588f.js"
   ]
 }
