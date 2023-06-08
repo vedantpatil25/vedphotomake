@@ -1,5 +1,6 @@
-import React from "react";
-import "./SectionGallay.css";
+import React,{useEffect} from 'react'
+import Aos from 'aos';
+import "aos/dist/aos.css";import "./SectionGallay.css";
 import { Navbar } from "../../components";
 import gallery01 from "../../assets/gallary01.jpeg";
 import gallery02 from "../../assets/gallary02.jpeg";
@@ -17,71 +18,74 @@ import gallery13 from "../../assets/gallary13.jpeg";
 
 
 const SectionGallay = () => {
+  useEffect(() => {
+    Aos.init({duration:1500});
+  },[]);
   return (
     <>
         <Navbar />
       <div className="wrapper app__bg">
         <div className="gallery">
-          <div className="gallery__item gallery__item--1">
+          <div className="gallery__item gallery__item--1" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery01}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
               </div>
             </a>
           </div>
-          <div className="gallery__item gallery__item--2">
+          <div className="gallery__item gallery__item--2" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery02}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
               </div>
             </a>
           </div>
-          <div className="gallery__item gallery__item--3">
+          <div className="gallery__item gallery__item--3" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery03}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
               </div>
             </a>
           </div>
-          <div className="gallery__item gallery__item--4">
+          <div className="gallery__item gallery__item--4" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery04}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
               </div>
             </a>
           </div>
-          <div className="gallery__item gallery__item--5">
+          <div className="gallery__item gallery__item--5" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery05}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
               </div>
             </a>
           </div>
-          <div className="gallery__item gallery__item--6">
+          <div className="gallery__item gallery__item--6" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery06}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
@@ -89,11 +93,11 @@ const SectionGallay = () => {
             </a>
           </div>
           
-          <div className="gallery__item gallery__item--7">
+          <div className="gallery__item gallery__item--7" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery07}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
@@ -101,11 +105,11 @@ const SectionGallay = () => {
             </a>
           </div>
 
-          <div className="gallery__item gallery__item--8">
+          <div className="gallery__item gallery__item--8" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery08}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
@@ -113,11 +117,11 @@ const SectionGallay = () => {
             </a>
           </div>
           
-          <div className="gallery__item gallery__item--9">
+          <div className="gallery__item gallery__item--9" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery09}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
@@ -125,11 +129,11 @@ const SectionGallay = () => {
             </a>
           </div>
           
-          <div className="gallery__item gallery__item--10">
+          <div className="gallery__item gallery__item--10" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery10}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
@@ -137,11 +141,11 @@ const SectionGallay = () => {
             </a>
           </div>
           
-          <div className="gallery__item gallery__item--11">
+          <div className="gallery__item gallery__item--11" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery11}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
@@ -149,11 +153,11 @@ const SectionGallay = () => {
             </a>
           </div>
           
-          <div className="gallery__item gallery__item--12">
+          <div className="gallery__item gallery__item--12" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery12}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
@@ -161,11 +165,11 @@ const SectionGallay = () => {
             </a>
           </div>
           
-          <div className="gallery__item gallery__item--13">
+          <div className="gallery__item gallery__item--13" data-aos="fade-up">
             <a href="#" className="gallery__link">
               <img
                 src={gallery13}
-                className="gallery__image"
+                className="gallery__image" 
               />
               <div className="gallery__overlay">
                 <span>Ved Photo Make</span>
