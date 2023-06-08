@@ -16,7 +16,7 @@ const Booking = (props) => {
         <div className="form1">
           <div className="form1-text">
             <h1 className="app__header-h1 booking__heading" data-aos = "fade-up">
-              Book Now - {props.name}
+              Book Now {props.name}
             </h1>
             <p className="p__cormorant" data-aos = "fade-up">
               Book Your order and we will contact you.

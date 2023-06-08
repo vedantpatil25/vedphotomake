@@ -7,7 +7,7 @@ import { images } from '../../constants';
 const FindUs = () => {
 
   useEffect(() => {
-    Aos.init({duration:1500});
+    Aos.init({duration:900});
   },[]);
 
 return(
@@ -21,13 +21,13 @@ return(
         <p className="p__opensans" data-aos = "fade-up">Everyday: 09:00 am - 10:00 pm</p>
       </div>
       <a href="https://maps.app.goo.gl/FCPKEYhNrriBWdHg9?g_st=iw" target='_blank'>
-      <button type="button" className="custom__button" style={{ marginTop: '2rem' }} data-aos = "fade-up">Visit Us</button>
+      <button type="button" className="custom__button findus__button" style={{ marginTop: '2rem' }} data-aos = "fade-up">Visit Us</button>
       </a>
       
     </div>
 
-    <div className="app__wrapper_img" data-aos = "fade-up">
-      <img src={images.findus} alt="findus_img" style={{ margin: '0',height: '500px',width:'375px' }} />
+    <div className="app__wrapper_img findus_image" data-aos = "fade-up">
+      <img src={images.findus} alt="findus_img" style={{ margin: '0',height: '500px',width:'375px', position:'relative', top:"55px"}} />
     </div>
   </div>
 )};

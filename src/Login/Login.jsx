@@ -144,12 +144,12 @@ const[logInError, setlogInError] = useState('');
                     />
                     <i className="input-icon material-icons">lock</i>
                   </div>
-                  <button>
+                  {/* <button>
                     <a href="">google sign in</a>
-                  </button>
+                  </button> */}
                   <br />
                   <h3>{logInError}</h3>
-                  <a href="#" className="btn" onClick={handleSubmit2} data-aos = "fade">
+                  <a href="#" className="btn" onClick={handleSubmit2}>
                     submit
                   </a>
                   <p className="text-center">
@@ -210,7 +210,7 @@ const[logInError, setlogInError] = useState('');
                   {/* signup error */}
                   <h3>{signUpError}</h3>
                   {/* signup submite button */}
-                  <a href="#" className="btn" onClick={handleSubmit} data-aos = "fade">
+                  <a href="#" className="btn" onClick={handleSubmit} >
                     submit
                   </a>
                 </div>

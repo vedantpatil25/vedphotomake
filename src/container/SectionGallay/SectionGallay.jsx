@@ -23,7 +23,6 @@ const SectionGallay = () => {
   },[]);
   return (
     <>
-        <Navbar />
       <div className="wrapper app__bg">
         <div className="gallery">
           <div className="gallery__item gallery__item--1" data-aos="fade-up">

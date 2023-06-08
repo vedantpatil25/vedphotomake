@@ -5,16 +5,34 @@ import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import {signOut} from "firebase/auth"
+import {auth} from "../../firebase"
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   useEffect(() => {
-    Aos.init({duration:1500});
+    Aos.init({duration:500});
   },[]);
+  
+  // console.log(props.isLoggedIn);
+  var isLoggedIn = props.isLoggedIn;
+  console.log(isLoggedIn);
+  //sign out use function
+  const userSignOut = ()=>
+  {
+    signOut(auth).then(() => {
+      alert("User Signed Out");
+    }).catch((error) => {
+      alert("User Signed Out");
+    });
+  }
+
+
   return (
-    <nav className="app__navbar" data-aos="fade">
+    <nav className="app__navbar">
       <a href="https://vedphotomake.web.app/">
       <div className="app__navbar-logo">
+
         <img src={images.gericht} alt="app__logo" />
       </div>
       </a>
@@ -30,10 +48,18 @@ const Navbar = () => {
           <a href="/aboutus">About</a>
         </li>
       </ul>
-      <div className="app__navbar-login">
+      
+        <div className="app__navbar-login">
+        {isLoggedIn?(
+        <a href="/" className="p__opensans" onClick={userSignOut}>
+        Log Out
+      </a>
+      ):(
         <a href="/login" className="p__opensans">
           Log In
         </a>
+      )}
+        
         <div />
 
         <a href="/booking" className="p__opensans">

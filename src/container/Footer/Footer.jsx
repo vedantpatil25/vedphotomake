@@ -9,16 +9,16 @@ import './Footer.css';
 
 const Footer = () => {
   useEffect(() => {
-    Aos.init({duration:1500});
+    Aos.init({duration:700});
   },[]);
 return(
-  <div className="app__footer section__padding" id="login" data-aos = "fade-up">
+  <div className="app__footer section__padding" id="login">
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
-        <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">Bijali Nagar, In The Area Of Stadium , Deopur, Dhule</p>
-        <p className="p__opensans">+91 8888 646 888</p>
-        <p className="p__opensans">jitupatil1381@gmail.com</p>
+        <h1 className="app__footer-headtext" data-aos = "fade-up">Contact Us</h1>
+        <p className="p__opensans" data-aos = "fade-up">Bijali Nagar, Area Of Stadium , Deopur, Dhule</p>
+        <p className="p__opensans" data-aos = "fade-up">+91 8888 646 888</p>
+        <p className="p__opensans" data-aos = "fade-up">jitupatil1381@gmail.com</p>
       </div>
 
       <div className="app__footer-links_logo" data-aos = "fade-up">

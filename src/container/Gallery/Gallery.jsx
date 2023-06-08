@@ -11,7 +11,7 @@ const Gallery = () => {
   
   
   useEffect(() => {
-    Aos.init({duration:1500});
+    Aos.init({duration:800});
   },[]);
 
 
@@ -35,8 +35,8 @@ const Gallery = () => {
         <p className="p__opensans" style={{ color: '#AAAAAA' }}>Our photo gallery showcases our passion for capturing beautiful and timeless moments. Browse through our collection to see our work and let us tell your story through our lens.</p>
       </div>
 
-      <a href="/portfolio"><button type="button" className="custom__button gallary__buttons" data-aos = "fade-up">Click to see Portfolio</button></a>
-      <a href="https://www.youtube.com/@vedphotojitupatil3518" target="_blank"><button type="button" className="custom__button" data-aos = "fade-up">Explore our YouTube</button></a>
+      <a href="/portfolio"><button type="button" className="custom__button gallary__buttons" data-aos = "fade">Click to see Portfolio</button></a>
+      <a href="https://www.youtube.com/@vedphotojitupatil3518" target="_blank"><button type="button" className="custom__button" data-aos = "fade">Explore our YouTube</button></a>
       <AnimatedGallery />
 
 

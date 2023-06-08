@@ -6,7 +6,7 @@ import { images } from '../../constants';
 const SubHeading = ({ title }) => {
 
   useEffect(() => {
-    Aos.init({duration:1500});
+    Aos.init({duration:500});
   },[]);
 
   return(

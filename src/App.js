@@ -8,11 +8,13 @@ import { Routes, Route } from 'react-router-dom';
 import { AboutUs } from './container';
 import SectionGallay from './container/SectionGallay/SectionGallay';
 import {auth} from './firebase';
+import { Navbar } from './components';
 
 const App = () => {
 
   const [userName,setUserName] = useState("");
   const [userEmail,setUserEmail] = useState("");
+  const [isUserLoggedIn, setisUserLoggedIn] = useState (false);
     useEffect(() => 
     {
       auth.onAuthStateChanged((user) => 
@@ -21,11 +23,13 @@ const App = () => {
           {
             setUserName(user.displayName);
             setUserEmail(user.email);
+            setisUserLoggedIn(true);
           }
           else
           {
             setUserName("");
             setUserEmail("");
+            setisUserLoggedIn(false);
           }
 
       });
@@ -33,8 +37,9 @@ const App = () => {
 
 return (
   <div>
+    <Navbar isLoggedIn = {isUserLoggedIn} />
     <Routes>
-      <Route path="/" element = {<Main/>}/>
+      <Route path="/" element = {<Main isLoggedIn = {isUserLoggedIn}/>}/>
       <Route path="/login" element = {<Login/>}/>
       <Route path="/booking" element = {<Booking name = {userName} email = {userEmail}/>}/>
       <Route path="/aboutus" element = {<AboutUs/>}/>
