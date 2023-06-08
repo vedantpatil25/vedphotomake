@@ -8,12 +8,6 @@
     inset: 0;
 }
 
-/* .app__aboutus-overlay img {
-    width: 391px;
-    height: 415px;
-    z-index: 0;
-} */
-
 .app__aboutus-content {
     width: 100%;
     z-index: 2;
@@ -52,6 +46,9 @@
 .app__aboutus-content_history p {
     margin: 0.5rem 0;
     color: var(--color-grey);
+}
+.aboutus_portfolio-button{
+    margin-top: 2rem;
 }
 
 @media screen and (min-width: 2000px) {

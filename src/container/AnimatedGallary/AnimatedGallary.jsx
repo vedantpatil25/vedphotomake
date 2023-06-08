@@ -1,4 +1,6 @@
-import React from "react";
+import React,{useEffect} from 'react'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 import "./AnimatedGallary.css";
 
 
@@ -12,9 +14,12 @@ import "./AnimatedGallary.css";
  import gallery08 from "../../assets/gallary08.jpeg";
  
  function AnimatedGallery() {
+  useEffect(() => {
+    Aos.init({duration:2000});
+  },[]);
    return (
-     <div className="animated__image-section app__aboutus app__bg flex__center section__padding">
-       <div className="slider-img">
+     <div className="animated__image-section app__aboutus app__bg flex__center section__padding " data-aos = "fade">
+       <div className="slider-img" >
          <span style={{ "--i": 1 }}>
            <img src={gallery01} alt="" />
          </span>

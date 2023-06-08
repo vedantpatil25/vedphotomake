@@ -17,7 +17,9 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">At Ved Photo Make, we understand that every client is unique, and we strive to create a personalized experience for each one. From the initial consultation to the final product, we work closely with our clients to ensure that every detail is taken care of and that they are completely satisfied with the end result...</p>
-        <button type="button" className="custom__button">Know More</button>
+        <a href="/portfolio">
+        <button type="button" className="custom__button aboutus_portfolio-button">Know More</button>
+        </a>
       </div>
     </div>
   </div>

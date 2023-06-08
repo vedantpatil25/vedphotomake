@@ -10,6 +10,7 @@
 
 .slider-img{
     position: relative;
+    top:50px;
     width: 200px;
     height: 200px;
     transform-style: preserve-3d;
@@ -49,4 +50,15 @@
 
 .slider-img span:hover img{
     transform: translateY(-50px) scale(1.2);
+ }
+
+ @media screen and (max-width: 650px) {
+    .slider-img{
+        width: 130px;
+        height: 130px;
+        padding: 0rem ;
+    }
+    .animated__image-section{
+        height: 40vh;
+    }
  }

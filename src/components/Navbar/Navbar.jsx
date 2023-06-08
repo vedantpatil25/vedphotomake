@@ -1,13 +1,18 @@
-import React from "react";
+import React,{useEffect} from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import images from "../../constants/images";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
+  useEffect(() => {
+    Aos.init({duration:1500});
+  },[]);
   return (
-    <nav className="app__navbar">
+    <nav className="app__navbar" data-aos="fade">
       <a href="https://vedphotomake.web.app/">
       <div className="app__navbar-logo">
         <img src={images.gericht} alt="app__logo" />

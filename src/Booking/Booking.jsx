@@ -1,30 +1,50 @@
-import React from "react";
-import "./Booking.css";
+import React,{useEffect} from 'react'
+import Aos from 'aos';
+import "aos/dist/aos.css";import "./Booking.css";
 import { Navbar } from "../components";
 
 const Booking = (props) => {
+  
+  useEffect(() => {
+    Aos.init({duration:1500});
+  },[]);
+
   return (
     <>
       <Navbar />
       <div className="main_bg">
         <div className="form1">
           <div className="form1-text">
-            <h1 className="app__header-h1 booking__heading">Book Now - {props.name}</h1>
-            <p className="p__cormorant">
+            <h1 className="app__header-h1 booking__heading" data-aos = "fade-up">
+              Book Now - {props.name}
+            </h1>
+            <p className="p__cormorant" data-aos = "fade-up">
               Book Your order and we will contact you.
             </p>
           </div>
           <div className="main-form1">
             <form action="https://formspree.io/f/meqwbrwn" method="POST">
-              <div className="input__component">
+              <div className="input__component" data-aos = "fade-up">
                 <span>Name</span>
-                <input type="text" name="name" id="name" placeholder= {props.name} required />
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder={props.name}
+                  required
+                />
               </div>
-              <div className="input__component">
+              <div className="input__component" data-aos = "fade-up">
                 <span>E-mail</span>
-                <input type="email" name="email" id="name" placeholder= {props.email} required />
+                <input
+                  type="email"
+                  name="email"
+                  id="name"
+                  placeholder={props.email}
+                  required
+                />
               </div>
-              <div className="input__component">
+              <div className="input__component" data-aos = "fade-up">
                 <span>Type of Photo Shoot</span>
                 <select name="type_of_photoshoot" id="people" required>
                   <option value=""></option>
@@ -58,11 +78,11 @@ const Booking = (props) => {
                   <option value="other">other than these</option>
                 </select>
               </div>
-              <div className="input__component">
+              <div className="input__component" data-aos = "fade-up">
                 <span>Your Address</span>
                 <input type="text" name="Address" id="time" required />
               </div>
-              <div className="input__component">
+              <div className="input__component" data-aos = "fade-up">
                 <span>Date</span>
                 <input
                   type="date"
@@ -72,11 +92,16 @@ const Booking = (props) => {
                   required
                 />
               </div>
-              <div className="input__component">
+              <div className="input__component" data-aos = "fade-up">
                 <span>Mobile Number</span>
-                <input type="number" name="mobile_number" id="number" required />
+                <input
+                  type="number"
+                  name="mobile_number"
+                  id="number"
+                  required
+                />
               </div>
-              <button id="submit" className="custom__button submit__button">
+              <button id="submit" className="custom__button submit__button" data-aos = "fade-up">
                 Submit
               </button>
             </form>
