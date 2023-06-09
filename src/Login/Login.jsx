@@ -97,7 +97,6 @@ const[logInError, setlogInError] = useState('');
 
   return (
     <>
-      <Navbar />
       <div className="form" >
         <div className="text-center">
           <h6>
@@ -109,13 +108,12 @@ const[logInError, setlogInError] = useState('');
           <div className="card-3d-wrap">
             <div className="card-3d-wrapper">
               {/* =====================LOGIN FORM===================== */}
-              {/* <form></form> */}
               <div className="card-front" >
                 <div className="center-wrap">
                   <h4 className="heading" data-aos = "fade">Log In</h4>
 
                   {/* login email */}
-                  <div className="form-group" data-aos = "fade">
+                  <div className="form-group" >
                     <input
                       type="email"
                       className="form-style"
@@ -131,7 +129,7 @@ const[logInError, setlogInError] = useState('');
                   </div>
 
                   {/* login password */}
-                  <div className="form-group" data-aos = "fade">
+                  <div className="form-group" >
                     <input
                       type="password"
                       className="form-style"
@@ -163,10 +161,10 @@ const[logInError, setlogInError] = useState('');
               {/* ===============signUp====================== */}
               <div className="card-back">
                 <div className="center-wrap">
-                  <h4 className="heading" data-aos = "fade">Sign Up</h4>
+                  <h4 className="heading" >Sign Up</h4>
 
                   {/* signup name */}
-                  <div className="form-group" data-aos = "fade">
+                  <div className="form-group" >
                     <input
                       type="text"
                       className="form-style"
@@ -180,7 +178,7 @@ const[logInError, setlogInError] = useState('');
                   </div>
 
                   {/* signup email */}
-                  <div className="form-group" data-aos = "fade">
+                  <div className="form-group" >
                     <input
                       type="email"
                       className="form-style"
@@ -194,7 +192,7 @@ const[logInError, setlogInError] = useState('');
                   </div>
 
                   {/* signup password */}
-                  <div className="form-group" data-aos = "fade">
+                  <div className="form-group" >
                     <input
                       type="password"
                       className="form-style"

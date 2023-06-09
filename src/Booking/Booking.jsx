@@ -2,14 +2,13 @@ import React,{useEffect} from 'react'
 import { useForm } from 'react-hook-form';
 import Aos from 'aos';
 import "aos/dist/aos.css";import "./Booking.css";
-import { Navbar } from "../components";
 
 
 const Booking = (props) => {
   const { register, handleSubmit, setValue } = useForm();
   
   useEffect(() => {
-    Aos.init({duration:1500});
+    Aos.init({duration:1000});
   },[]);
 
 
@@ -17,11 +16,13 @@ const Booking = (props) => {
   useEffect(() => {
     setValue('name', prepopulatedData.name);
     setValue('email', prepopulatedData.email);
+    
   }, [setValue]);
-
+    const temp__name = props.name;
+    const temp__email = props.email;
   const prepopulatedData = {
-    name: props.name,
-    email: props.email,
+    name: temp__name,
+    email: temp__email,
   };
 
 //not in use function just to using for prepopulating the data
@@ -42,7 +43,7 @@ const Booking = (props) => {
             </p>
           </div>
           <div className="main-form1">
-            <form action="https://formspree.io/f/meqwbrwn" method="POST" onSubmit={handleSubmit(onSubmit)}>
+            <form action="https://formspree.io/f/meqwbrwn" method="POST" >
               <div className="input__component" data-aos = "fade-up">
                 <span>Name</span>
                 <input
@@ -122,7 +123,7 @@ const Booking = (props) => {
                   required
                 />
               </div>
-              <button id="submit" className="custom__button submit__button" data-aos = "fade-up">
+              <button id="submit" className="custom__button submit__button">
                 Submit
               </button>
             </form>

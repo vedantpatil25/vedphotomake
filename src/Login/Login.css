@@ -222,3 +222,13 @@ h6 span
 {
   color: #000e7b;
 }
+
+@media screen and (max-width: 500px){
+  .form{
+
+    min-height: 125vh;
+    padding: 15rem;
+
+  }
+  
+}
