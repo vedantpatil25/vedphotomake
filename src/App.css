@@ -184,6 +184,11 @@
   .header__app__wrapper_img{
     order: 1;
   }
+  .app__wrapper_img img {
+    width: 47%;
+    position: relative;
+    top: 50px;
+  }
 }
 
 @media screen and (max-width: 450px) {

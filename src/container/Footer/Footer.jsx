@@ -16,14 +16,14 @@ return(
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext" data-aos = "fade-up">Contact Us</h1>
-        <p className="p__opensans" data-aos = "fade-up">Bijali Nagar, Area Of Stadium , Deopur, Dhule</p>
-        <p className="p__opensans" data-aos = "fade-up">+91 8888 646 888</p>
-        <p className="p__opensans" data-aos = "fade-up">jitupatil1381@gmail.com</p>
+        <p className="p__opensans" data-aos = "fade-up">Sample streets, Pimpri Chinchwad, Pune - 401234</p>
+        <p className="p__opensans" data-aos = "fade-up">+91 2222 444 111</p>
+        <p className="p__opensans" data-aos = "fade-up">sample_id@mail.com</p>
       </div>
 
       <div className="app__footer-links_logo" data-aos = "fade-up">
         <img src={images.gericht} alt="footer_logo"/>
-        <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
+        <p className="p__opensans">&quot;Reduce, reuse, e-cycle.&quot;</p>
         <div className="app__footer-links_icons">
           <FiFacebook />
           <FiTwitter />

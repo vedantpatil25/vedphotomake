@@ -30,7 +30,7 @@ const Navbar = (props) => {
 
   return (
     <nav className="app__navbar">
-      <a href="https://vedphotomake.web.app/">
+      <a href="https://ecowastecollect.web.app/">
       <div className="app__navbar-logo">
 
         <img src={images.gericht} alt="app__logo" />
@@ -42,7 +42,7 @@ const Navbar = (props) => {
           <a href="/">Home</a>
         </li>
         <li className="p__opensans">
-          <a href="/portfolio">Portfolio</a>
+          <a href="/portfolio">Event Gallary</a>
         </li>
         <li className="p__opensans">
           <a href="/aboutus">About</a>
@@ -90,7 +90,7 @@ const Navbar = (props) => {
               </li>
               <li>
                 <a href="/portfolio" onClick={() => setToggleMenu(false)}>
-                  Portfolio
+                  Event Gallary
                 </a>
               </li>
               <li>

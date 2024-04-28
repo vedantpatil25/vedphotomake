@@ -16,14 +16,14 @@ const Chef = () => (
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
-          <p className="p__opensans">Making The Memories That Matters...</p>
+          <p className="p__opensans">E-waste today, Earth's tomorrow.</p>
         </div>
-        <p className="p__opensans">We believe in the power of photography to preserve memories and evoke emotions. We strive to capture those special moments that will be cherished for a lifetime. Our team of experienced photographers uses state-of-the-art equipment and techniques to create images that are not only beautiful but also meaningful.</p>
+        <p className="p__opensans">At EcoWasteCollect, we believe in the power of collective action to create a more sustainable future. We are committed to raising awareness about e-waste and offering accessible, environmentally responsible solutions. Our belief is rooted in the idea that by working together, we can reduce electronic waste, conserve resources, and protect our planet for generations to come. Join us in our mission to make a difference.</p>
       </div>
 
       <div className="app__chef-sign">
-        <p>Jitendra Patil</p>
-        <p className="p__opensans">Photographer & Founder</p>
+        <p>Founder Name</p>
+        <p className="p__opensans"> - Founder</p>
       </div>
     </div>
   </div>

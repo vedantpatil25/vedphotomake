@@ -1,19 +1,19 @@
 const wines = [
   {
-    title: 'Photography sessions',
-    description: 'This can include portrait photography, family photography, newborn photography, pet photography, engagement photography, wedding photography, commercial photography, fashion photography, etc.',
+    title: 'Eco-Friendly Recycling',
+    description: 'Recycling centers are dedicated to reusing and repurposing e-waste. Dispose of your electronic items here to ensure responsible recycling, reduce landfill waste, and conserve valuable resources.',
   },
   {
-    title: 'Photo editing and retouching',
-    description: 'Photo studios can provide editing and retouching services to enhance the quality of photographs. This can include color correction, background removal, skin smoothing, and other enhancements.',
+    title: 'Convenient Collection',
+    description: 'Arrange for e-waste pickups from the comfort of your home. We willl collect your unwanted gadgets, ensuring proper disposal, and provide you with incentives in return',
   },
   {
-    title: 'Photo albums and books',
-    description: 'Photo studios can design and create photo albums and books for clients, which can include different themes and layouts.',
+    title: 'Trade for Sustainability',
+    description: 'Trade in your old devices for newer, more energy-efficient ones. This service promotes responsible disposal while allowing you to upgrade your tech guilt-free.',
   },
   {
-    title: 'Digital copies and storage',
-    description: 'Photo studios can provide digital copies of photographs and can also store them for clients in secure online servers or cloud-based storage.',
+    title: 'Give Gadgets a Second Life',
+    description: "Donate your functioning electronics to those in need. Support a good cause, extend the life of your devices, and reduce e-waste's impact on the environment",
   },
 ];
 

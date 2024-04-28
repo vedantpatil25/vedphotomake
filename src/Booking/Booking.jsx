@@ -1,50 +1,48 @@
-import React,{useEffect} from 'react'
-import { useForm } from 'react-hook-form';
-import Aos from 'aos';
-import "aos/dist/aos.css";import "./Booking.css";
-
+import React, { useEffect } from 'react'
+import { useForm } from 'react-hook-form'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import './Booking.css'
 
 const Booking = (props) => {
-  const { register, handleSubmit, setValue } = useForm();
-  
-  useEffect(() => {
-    Aos.init({duration:1000});
-  },[]);
+  const { register, handleSubmit, setValue } = useForm()
 
-
-  //prepopulate the the name and email field if user is logged in 
   useEffect(() => {
-    setValue('name', prepopulatedData.name);
-    setValue('email', prepopulatedData.email);
-    
-  }, [setValue]);
-    const temp__name = props.name;
-    const temp__email = props.email;
+    Aos.init({ duration: 1000 })
+  }, [])
+
+  //prepopulate the the name and email field if user is logged in
+  useEffect(() => {
+    setValue('name', prepopulatedData.name)
+    setValue('email', prepopulatedData.email)
+  }, [setValue])
+  const temp__name = props.name
+  const temp__email = props.email
   const prepopulatedData = {
     name: temp__name,
     email: temp__email,
-  };
+  }
 
-//not in use function just to using for prepopulating the data
+  //not in use function just to using for prepopulating the data
   const onSubmit = () => {
-    console.log("onsubmit is called");
-  };
+    console.log('onsubmit is called')
+  }
 
   return (
     <>
       <div className="main_bg">
         <div className="form1">
           <div className="form1-text">
-            <h1 className="app__header-h1 booking__heading" data-aos = "fade-up">
+            <h1 className="app__header-h1 booking__heading" data-aos="fade-up">
               Book Now {props.name}
             </h1>
-            <p className="p__cormorant" data-aos = "fade-up">
+            <p className="p__cormorant" data-aos="fade-up">
               Book Your order and we will contact you.
             </p>
           </div>
           <div className="main-form1">
-            <form action="https://formspree.io/f/meqwbrwn" method="POST" >
-              <div className="input__component" data-aos = "fade-up">
+            <form action="https://formspree.io/f/mrgwdgvb" method="POST">
+              <div className="input__component" data-aos="fade-up">
                 <span>Name</span>
                 <input
                   type="text"
@@ -55,7 +53,7 @@ const Booking = (props) => {
                   required
                 />
               </div>
-              <div className="input__component" data-aos = "fade-up">
+              <div className="input__component" data-aos="fade-up">
                 <span>E-mail</span>
                 <input
                   type="email"
@@ -66,46 +64,25 @@ const Booking = (props) => {
                   required
                 />
               </div>
-              <div className="input__component" data-aos = "fade-up">
-                <span>Type of Photo Shoot</span>
+              <div className="input__component" data-aos="fade-up">
+                <span>Weight Catogory</span>
                 <select name="type_of_photoshoot" id="people" required>
                   <option value=""></option>
-                  <option value="marriage_photo_vid">
-                    Marriage - Photo and Video Shoot
-                  </option>
-                  <option value="birthday">
-                    Birthday - Photo and Video Shoot
-                  </option>
-                  <option value="birthday">Birthday - Photo Shoot</option>
-                  <option value="personal_photo_vid">
-                    Personal - Photo and Video Shoot
-                  </option>
-                  <option value="personal_photo">Personal - Photo Shoot</option>
-                  <option value="prewedding_vid_photo">
-                    Pre Wedding - Photo and Video Shoot
-                  </option>
-                  <option value="prewedding_photo">
-                    Pre Wedding - Photo Shoot
-                  </option>
-                  <option value="home_fuction_photo_vid">
-                    Home Function - Photo and Video Shoot
-                  </option>
-                  <option value="home_fuction_photo">
-                    Home Function - Photo Shoot
-                  </option>
-                  <option value="photo_editing">Photo Editing</option>
-                  <option value="photo_album">Photo Album</option>
-                  <option value="digital_copies">Digital Copies</option>
-                  <option value="storage">Storage</option>
+                  <option value="marriage_photo_vid">Less than 1 KG </option>
+                  <option value="birthday">1 - 2 KGs </option>
+                  <option value="birthday">5 - 6 KGs</option>
+                  <option value="personal_photo_vid">10 - 12 KGs </option>
+                  <option value="personal_photo">25 - 25 KGs</option>
+                  <option value="prewedding_vid_photo">25+ KGs </option>
                   <option value="other">other than these</option>
                 </select>
               </div>
-              <div className="input__component" data-aos = "fade-up">
+              <div className="input__component" data-aos="fade-up">
                 <span>Your Address</span>
                 <input type="text" name="Address" id="time" required />
               </div>
-              <div className="input__component" data-aos = "fade-up">
-                <span>Date</span>
+              <div className="input__component" data-aos="fade-up">
+                <span>Desired Collection Date</span>
                 <input
                   type="date"
                   name="date"
@@ -114,7 +91,7 @@ const Booking = (props) => {
                   required
                 />
               </div>
-              <div className="input__component" data-aos = "fade-up">
+              <div className="input__component" data-aos="fade-up">
                 <span>Mobile Number</span>
                 <input
                   type="number"
@@ -131,7 +108,7 @@ const Booking = (props) => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Booking;
+export default Booking

@@ -16,7 +16,7 @@ return(
       <SubHeading title="Contact" />
       <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }} data-aos = "fade-up">Find Us</h1>
       <div className="app__wrapper-content">
-        <p className="p__opensans" data-aos = "fade-up">Bijali Nagar, In the area of stadium , Deopur, Dhule, Pin Code : 414002</p>
+        <p className="p__opensans" data-aos = "fade-up">Sample Streets, Pimpri chinchwad, Pune - 411000</p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }} data-aos = "fade-up">Opening Hours</p>
         <p className="p__opensans" data-aos = "fade-up">Everyday: 09:00 am - 10:00 pm</p>
       </div>

@@ -1,26 +1,25 @@
-import React, { useEffect } from "react";
-import { SubHeading } from "../../components";
-import { images } from "../../constants";
-import "./Header.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React, { useEffect } from 'react'
+import { SubHeading } from '../../components'
+import { images } from '../../constants'
+import './Header.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Header = () => {
   useEffect(() => {
-    Aos.init({ duration: 500 });
-  }, []);
+    Aos.init({ duration: 500 })
+  }, [])
 
   return (
     <div className="app__header app__wrapper section__padding" id="home">
       <div className="app__wrapper_info" data-aos="fade-right">
-        <SubHeading title="Making the memories that matters" />
-        <h1 className="app__header-h1">Ved Photo Make</h1>
-        <p className="p__opensans" style={{ margin: "2rem 0" }}>
-          Ved Photo Make is a professional photo studio that offers a wide range
-          of photography services. With a team of skilled photographers and
-          state-of-the-art equipment, they are committed to delivering
-          exceptional quality and capturing every precious moment. Whether it's
-          a wedding, corporate event, or portrait session.
+        <SubHeading title=" Green Disposal, Cash for Trash" />
+        <h1 className="app__header-h1">EcoWasteCollect</h1>
+        <p className="p__opensans" style={{ margin: '2rem 0' }}>
+          EcoWasteCollect is your hassle-free solution for responsible e-waste
+          disposal. Book a pickup, and we'll collect your electronic waste right
+          from your doorstep while offering incentives in return. Help protect
+          the environment and earn cash for your old gadgets today!
         </p>
         <a href="/booking">
           <button type="button" className="custom__button">
@@ -38,7 +37,7 @@ const Header = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

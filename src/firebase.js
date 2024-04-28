@@ -5,14 +5,13 @@ import {getAuth} from "firebase/auth";
 // import { cloneElement } from "react";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAZE1yZprMye50H71lGmw1WAKVdDFRjy5M",
-  authDomain: "vedphotomake.firebaseapp.com",
-  projectId: "vedphotomake",
-  storageBucket: "vedphotomake.appspot.com",
-  messagingSenderId: "271565636054",
-  appId: "1:271565636054:web:27ded8a40a25c17bf86477",
-  measurementId: "G-EQP8C7KJXG",
-  databaseURL : "https://vedphotomake-default-rtdb.firebaseio.com/"
+  apiKey: "AIzaSyBkl5jhy_pKfzPpagyqaQctjnoM2RkyWPk",
+  authDomain: "ecowastecollect.firebaseapp.com",
+  projectId: "ecowastecollect",
+  storageBucket: "ecowastecollect.appspot.com",
+  messagingSenderId: "840809913962",
+  appId: "1:840809913962:web:6641cd24ae25441f54b413",
+  measurementId: "G-KMS9MF8JYC"
 };
 
 const app = initializeApp(firebaseConfig);

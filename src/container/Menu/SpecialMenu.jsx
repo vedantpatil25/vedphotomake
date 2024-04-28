@@ -13,7 +13,7 @@ const SpecialMenu = () => {
   <div className="app__specialMenu section__padding" id="menu">
     <div className="app__specialMenu-title">
       {/* <SubHeading title="To capture and preserve life's precious moments through creative and timeless photography, and to become the go-to photo studio for high-quality photography services that exceed our clients' expectations" /> */}
-      <h1 className="headtext__cormorant" data-aos = "fade-up">Services</h1>
+      <h1 className="headtext__cormorant" data-aos = "fade-up">E-waste Disposal</h1>
     </div>
 
     <div className="app__specialMenu-menu">

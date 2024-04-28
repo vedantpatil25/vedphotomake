@@ -16,7 +16,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">At Ved Photo Make, we understand that every client is unique, and we strive to create a personalized experience for each one. From the initial consultation to the final product, we work closely with our clients to ensure that every detail is taken care of and that they are completely satisfied with the end result...</p>
+        <p className="p__opensans">At EcoWasteCollect, our mission is to lead the charge in responsible e-waste disposal. We provide you with eco-friendly recycling solutions, convenient e-waste pickups, and the option to trade your old devices for newer, more sustainable ones. Our donation programs allow you to give your gadgets a second life, benefiting those in need. We're more than just a service; we're a community-driven initiative focused on reducing electronic waste's impact on the environment and creating a greener, cleaner world for all. Join us in making a positive change today...</p>
         <a href="/portfolio">
         <button type="button" className="custom__button aboutus_portfolio-button">Know More</button>
         </a>

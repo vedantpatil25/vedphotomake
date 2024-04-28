@@ -30,13 +30,13 @@ const Gallery = () => {
   return (
     <div className="app__gallery" id="gallary">
       <div className="app__gallery-content" data-aos = "fade-up">
-        <SubHeading title="Photos" />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: '#AAAAAA' }}>Our photo gallery showcases our passion for capturing beautiful and timeless moments. Browse through our collection to see our work and let us tell your story through our lens.</p>
+        <SubHeading title="Collection Drives" />
+        <h1 className="headtext__cormorant">Events</h1>
+        <p className="p__opensans" style={{ color: '#AAAAAA' }}>Join our community-driven collection events! Contribute to a cleaner planet by participating in our e-waste collection drives. Together, we can make a significant impact on reducing electronic waste and its environmental footprint.</p>
       </div>
 
-      <a href="/portfolio"><button type="button" className="custom__button gallary__buttons" data-aos = "fade">Click to see Portfolio</button></a>
-      <a href="https://www.youtube.com/@vedphotojitupatil3518" target="_blank"><button type="button" className="custom__button" data-aos = "fade">Explore our YouTube</button></a>
+      <a href="/portfolio"><button type="button" className="custom__button gallary__buttons" data-aos = "fade">Explore Event Gallary</button></a>
+      {/* <a href="https://www.youtube.com/@vedphotojitupatil3518" target="_blank"><button type="button" className="custom__button" data-aos = "fade">Explore our YouTube</button></a> */}
       <AnimatedGallery />
 
 

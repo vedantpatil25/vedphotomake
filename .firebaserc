@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "vedphotomake"
-  }
+    "default": "ecowastecollect",
+    "EcoWasteCollect": "ecowastecollect"
+  },
+  "targets": {},
+  "etags": {}
 }
